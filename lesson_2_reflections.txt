@@ -1,3 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
   A .git file is created to contain metadata.  The repository allows saving of programs periodically with the ability
-  to compare later and earlier versions.  
+  to compare later and earlier versions.
+  
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+  Staging area is the first level of commit from the working directory where active work is being done.  The Staging area
+  does permit recall prior to a commit to the repository by using the 'git reset file_name' command.
+
+  
