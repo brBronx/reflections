@@ -6,4 +6,5 @@ How is the staging area different from the working directory and the repository?
   Staging area is the first level of commit from the working directory where active work is being done.  The Staging area
   does permit recall prior to a commit to the repository by using the 'git reset file_name' command.
 
-  
+How can you use the staging area to make sure you have one commit per logical change?
+  By using the git diff statement, the differences between the working directory (current copy) and the staging area will be highlighted.  After making a logical change, don't just 'add' to the Staging Area but also 'commit' so that the change will be in the repository.  
