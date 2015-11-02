@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+  A .git file is created to contain metadata.  The repository allows saving of programs periodically with the ability
+  to compare later and earlier versions.  
