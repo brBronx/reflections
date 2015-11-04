@@ -14,4 +14,7 @@ What is the benefit of having a copy of the last known state of the remote store
   It allows running of git diff origin/master master to show any differences between the local repository and the 
   remote one.  These differences may be the result of other people pushing to the remote repository.  Therefore, you have the opportunity to resolve any conflicts.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?  
+  Without using Git or GitHub, every change needs to be documented, timestamped and emailed to all collaborators.  Then a conference needs to be held to resolve all conflicts.  With Git or GitHub, the changes can be made and all collaborators can be notified, examine the changes and respond.  When all agree and there are no conflicts, the merges can be done.
+
   
